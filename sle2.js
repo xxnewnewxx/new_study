@@ -14,3 +14,8 @@ let arr6 = ["a", "b", "c", "e", "f"];
 
 // arr = ["a", undefined, "c", "e", "f"]
 delete arr6[1]; // delete로 배열을 삭제할 경우 요소는 그대로 존재하며 값만 삭제 됨
+
+let arr7 = ["a", "b", "c"];
+
+// arr = ['a', 'b', 'c', 'e'];
+arr7[arr7.length] = "e"; // 배열의 끝에 요소를 추가
