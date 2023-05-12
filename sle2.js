@@ -19,3 +19,6 @@ let arr7 = ["a", "b", "c"];
 
 // arr = ['a', 'b', 'c', 'e'];
 arr7[arr7.length] = "e"; // 배열의 끝에 요소를 추가
+
+// arr = ['a', 'b', 'c']
+arr7.length = arr7.length - 1; // 배열의 크기를 하나 줄인다
