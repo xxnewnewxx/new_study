@@ -25,3 +25,7 @@ arr7.length = arr7.length - 1; // 배열의 크기를 하나 줄인다
 
 // arr = ["a", "b", "c", undefined, undefined, "g"]
 arr7[5] = "g"; // index 5 에 요소를 추가, 빈요소([3],[4])는 undefined
+
+var arr8 = ["a", "b", "c", "d", "e"];
+
+arr8.push("f"); // 배열의 끝에 요소를 추가
